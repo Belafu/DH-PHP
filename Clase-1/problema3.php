@@ -80,11 +80,12 @@ echo "La division es: ".($entero / $decimal);echo "<br>";
 echo "La multiplicacion es: ".($entero * $decimal);echo "<br>";
 $division = $entero / $decimal;
 echo "variable division: ".$division;echo "<br>";
-
+echo "<br>";
 echo "ab) Sumarle 1 al entero y al decimal";echo "<br>";
 echo $entero + 1;echo "<br>";
 echo $decimal + 1;echo "<br>";
-
+echo "Fijate que comilla simple imprime el nombre de la variable: ".'$entero';echo "<br>";//Incluso se te pinta
+echo "<br>";
 echo "Sumarle 5 a $entero y restarle 0.6 a $decimal.";echo "<br>";
 echo $entero + 5;echo "<br>";
 echo $decimal - 0.6;echo "<br>";
@@ -93,11 +94,12 @@ echo "<br>";
 echo "Crear resultado, cuyo valor sea el resultado de multiplicar entero * 2, sumarle decimal, y dividir todo por la mitad de entero";
 $resultado = (($entero * 2) + $decimal )/($entero / 2);echo "<br>";
 echo $resultado;echo "<br>";
-
+echo "<br>";
 echo "Declarar una variable con el string ‘Hola’, y otra variable con el string ‘mundo!’";echo "<br>";
 $hola = 'Hola';echo $hola;echo "<br>";
 $mundo = 'mundo!';echo $mundo;echo "<br>";
 $nueva = $hola . $mundo;echo $nueva;echo "<br>";
+echo "<br>";
 echo "Crear una nueva variable que concatene la variable creada en el punto a, y concatenarle el string ‘Que bueno esta PHP’.";echo "<br>";
 $concat = $nueva . 'Que bueno esta PHP';echo $concat;echo "<br>";
 
