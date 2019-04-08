@@ -79,8 +79,10 @@ Si la nota este entre 6 y 8 imprimir “Bien!!!”
 Si la nota es un 9 imprimir “MUY bien!!”
 Si la nota es un 10 imprimir “Excelente!!!!!”    ";echo "<br>";
 
-$nota =10; echo "nota: ".$nota;echo "<br>";
+$nota =0; echo "nota: ".$nota;echo "<br>";
 switch ($nota) {
+  case 0: echo "La nota es cero";//OJO QUE EL CERO ES FALSE ,ASI QUE PONGAMOS ESTE CASO
+    break;
   case ($nota<4 &&$nota>0): echo "desaprobado";
     break;
   case ($nota==4 ||$nota==5): echo "zafamos";
