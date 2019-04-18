@@ -10,7 +10,6 @@ $titulo = "Craftsy | Home" ;
 
 			<main> <!-- Cuerpo principal del sitio -->
 				<section class="product-container"><!-- Contenedor de todos los productos -->
-
 					<?php foreach ($productos as $key => $value): ?>
 						<article class="producto"><!-- Contenedor de cada producto -->
 							<img class="main-photo" src=<?= $value["imagen"] ?> alt="">
