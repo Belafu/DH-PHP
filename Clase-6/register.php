@@ -19,13 +19,6 @@ $paises = ["Brazil", "urugays", "francia", "noruega","chile","bolivia","Kasakist
         <form id='register' action='' method='get'>
             <fieldset >
                 <legend>Registrate</legend>
-
-                <input type='hidden' name='submitted' id='submitted' value='1'/>
-
-                <div class='short_explanation'>* campos requeridos</div>
-                <input type='text' class='spmhidip' name='' />
-
-                <div><span class='error'></span></div>
                 <div class='container'>
                     <label for='name' >Nombre completo: </label><br/>
                     <input type='text' name='name' id='name' value='' maxlength="50" /><br/>
@@ -58,7 +51,7 @@ $paises = ["Brazil", "urugays", "francia", "noruega","chile","bolivia","Kasakist
                     <div id='register_password_errorloc' class='error' style='clear:both'></div>
                 </div><!--PROBAR:
                   http://localhost/carpetaPersonal/DH-PHP/Clase-6/register.php?versionCorta-->
-                <?php if(!isset($_GET["versionCorta"])): ?>
+                <?php if(!isset($_GET["versionCorta"])): ?><!--SI existe este campo no escribir el nuevo imput  empty =>me devuelve tru porque es vacio-->
                   <div class='container' style='height:80px;'>
                       <label for='confir-password' >Confirmar Contaseña*:</label><br/>
                       <div class='pwdwidgetdiv' id='thepwddiv' ></div>

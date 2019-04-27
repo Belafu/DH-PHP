@@ -17,8 +17,7 @@ echo "Respuesta del servidor en headers <br>";
 foreach (getallheaders() as $nombre => $valor) {
     echo "$nombre: $valor <br>";
 }
-echo "<hr>";
-var_dump($_FILES);
+
 echo "<hr>";
 var_dump($_SERVER);
 
