@@ -1,3 +1,8 @@
+<?php
+$paises = ["Brazil", "urugays", "francia", "noruega","chile","bolivia","Kasakistan","Estados-Unidos","Mexico","Canada","Islandia"];
+
+ ?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -16,6 +21,13 @@
         <input type="checkbox" name="jugar">Jugar
         <input type="checkbox" name="cantar">Cantar
         <input type="checkbox" name="bailar">Bailar
+        <br>
+        <label for="pais">Pais</label>
+          <select class="form-control" id="exampleFormControlSelect1" name="pais">
+            <?php foreach ($paises as $value): ?>
+                <option value=<?=$value?>> <?=$value?></option>
+            <?php endforeach;?>
+          </select>
         <br>
         <label for="sexo">Sexo: </label>
         <input type="radio" name="sexo" value="M">Masculino

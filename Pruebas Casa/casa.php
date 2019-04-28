@@ -65,4 +65,12 @@ if (empty($caracter)) {
 else {
   echo "El valor es no vacio";
 }
+echo "<hr>";
+$arrayNum=[1,3,"vx"];
+$arrayNum[]=123;
+var_dump($arrayNum);
+echo "<hr>";
+$arr=[];
+$arr[]=123;
+var_dump($arr);
  ?>

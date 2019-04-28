@@ -85,7 +85,7 @@ if($_POST){
         </ul>
 
         <!-- FORMULARIO -->
-        <form class="col-md-6 offset-md-3" action="register.php" method="POST" enctype="multipart/form-data">
+        <form class="col-md-6 offset-md-3" action="register-profe.php" method="POST" enctype="multipart/form-data">
         <!-- Nombre -->
         <div class="form-group">
           <label for="name">Nombre</label>
