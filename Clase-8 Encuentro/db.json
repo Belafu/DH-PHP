@@ -1,0 +1,36 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "nombre": "ale",
+            "genero": "masc",
+            "email": "ale@dh.com",
+            "pass": "$2y$10$J0Z7AR2ONQXfkgFl9V0HbOhrzmP6HnfIKLH3ShG60x7\/jqTTr0j9i",
+            "avatar": "ruta de la imagen"
+        },
+        {
+            "id": 2,
+            "nombre": "Karly",
+            "genero": "fem",
+            "email": "karly@dh.com",
+            "pass": "$2y$10$2RUebONWWCh\/gtnkhlS2ze7Ni0eJjb5HlphbkObICikM33zMZ5yZ2",
+            "avatar": "ruta de la imagen"
+        },
+        {
+            "id": 3,
+            "nombre": "Fran",
+            "genero": "masc",
+            "email": "fran@gmail.com",
+            "pass": "$2y$10$KjDK..1hlz0U2GCg47G82O3Nob5Wn5giCgpN3nFWAgJKbAi.ZkbVK",
+            "avatar": "ruta de la imagen"
+        },
+        {
+            "id": 4,
+            "nombre": "Javi",
+            "genero": "masc",
+            "email": "javi@gmail.com",
+            "pass": "$2y$10$iqkX6Rg0hbC\/3JTpBFsFd.n6\/o6XwHW5mPnqyWSD3b49NDhWjfjIq",
+            "avatar": "ruta de la imagen"
+        }
+    ]
+}
