@@ -24,7 +24,7 @@ var_dump($_SESSION,$_POST);
   <body style= "background-color:<?= $_SESSION['color'] ?>;">
       <form class="" action="colores-home.php" method="post">
         <label for="color">Color</label>
-        <select class="" name="color">
+        <select class="" name="color" value="" >  <!--Aca estara la magia en el value??-->
           <option value="red">Rojo</option>
           <option value="green">Verde</option>
           <option value="blue">Azul</option>
